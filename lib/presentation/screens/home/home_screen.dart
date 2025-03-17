@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
-import 'package:widgets_app/presentation/screens/botoes/buttons_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -30,7 +29,7 @@ class _HomeView extends StatelessWidget {
         final menuItem = appMenuItens[index];
 
         return _CustomListTitle(menuItem: menuItem);
-      }, separatorBuilder: (BuildContext context, int index) { 
+      }, separatorBuilder: (BuildContext context, int index) {
           return Divider(
             color: colors.primary,
             thickness: 2,
