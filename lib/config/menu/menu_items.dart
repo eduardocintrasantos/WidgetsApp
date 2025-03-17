@@ -20,7 +20,7 @@ const appMenuItens = [
   MenuItem(
     title: 'Cartões',
     subTitle: 'Exemplos de Cartões',
-    link: '/card',
+    link: '/cards',
     icon: Icons.credit_card
   ),
 ];
