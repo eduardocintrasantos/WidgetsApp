@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_app/config/menu/menu_itens.dart';
+import 'package:widgets_app/presentation/screens/buttons/buttons_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -48,7 +49,14 @@ class _CustomListTitle extends StatelessWidget {
       trailing: Icon(Icons.arrow_forward_ios_outlined, color: colors.primary,),
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
-      onTap: () {},
+      onTap: () {
+        /*Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => const ButtonsScreen() 
+          )
+        );*/
+        Navigator.pushNamed(context, menuItem.link);
+      },
     );
   }
 }
