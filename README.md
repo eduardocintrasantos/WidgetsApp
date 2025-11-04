@@ -1,2 +1,3 @@
-# WidgetsApp
-Widgets App curso flutter
+# widgets_app
+
+A new Flutter project.
