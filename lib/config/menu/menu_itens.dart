@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart' show IconData;
+
+class MenuItem {
+  final String title;
+  final String subTitle;
+  final String link;
+  final IconData icon;
+
+  const MenuItem({
+    required this.title, 
+    required this.subTitle, 
+    required this.link, 
+    required this.icon
+  });
+}
+
+const appMenuItens = <MenuItem>[
+  MenuItem(
+    title: 'Botoes',
+    subTitle: 'Exemplos de botões',
+    link: '/buttons',
+    icon: Icons.smart_button_outlined
+  ),
+  MenuItem(
+    title: 'Cartões',
+    subTitle: 'Exemplos de cartões',
+    link: '/card',
+    icon: Icons.credit_card
+  )
+];
