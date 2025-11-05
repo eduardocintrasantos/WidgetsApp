@@ -45,5 +45,12 @@ final appRouter = GoRouter(
         return const AnimatedScreen();
       },
     ),
+
+    GoRoute(
+      path: '/checkbox',
+      builder: (BuildContext context, GoRouterState state) {
+        return const UiControlsScreen();
+      },
+    ),
   ],
 );
