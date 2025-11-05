@@ -8,10 +8,10 @@ class MenuItem {
   final IconData icon;
 
   const MenuItem({
-    required this.title, 
-    required this.subTitle, 
-    required this.link, 
-    required this.icon
+    required this.title,
+    required this.subTitle,
+    required this.link,
+    required this.icon,
   });
 }
 
@@ -20,18 +20,24 @@ const appMenuItens = <MenuItem>[
     title: 'Botoes',
     subTitle: 'Exemplos de botões',
     link: '/buttons',
-    icon: Icons.smart_button_outlined
+    icon: Icons.smart_button_outlined,
   ),
   MenuItem(
     title: 'Cartões',
     subTitle: 'Exemplos de cartões',
     link: '/cards',
-    icon: Icons.credit_card
+    icon: Icons.credit_card,
   ),
   MenuItem(
     title: 'ProgressIndicators',
     subTitle: 'Exemplos de progressos',
     link: '/progress',
-    icon: Icons.refresh_rounded
-  )
+    icon: Icons.refresh_rounded,
+  ),
+  MenuItem(
+    title: 'SnackBars',
+    subTitle: 'Exemplos de SnackBars',
+    link: '/snackbars',
+    icon: Icons.info_outline,
+  ),
 ];
