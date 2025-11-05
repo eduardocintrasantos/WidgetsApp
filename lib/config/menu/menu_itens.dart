@@ -52,4 +52,16 @@ const appMenuItens = <MenuItem>[
     link: '/checkbox',
     icon: Icons.car_rental_outlined,
   ),
+  MenuItem(
+    title: 'Tutorial',
+    subTitle: 'Tutorial de uso do app',
+    link: '/tutorial',
+    icon: Icons.accessible_rounded,
+  ),
+  MenuItem(
+    title: 'InfinitScroll',
+    subTitle: 'Scroll infinito',
+    link: '/infinitscroll',
+    icon: Icons.list_alt_rounded,
+  ),
 ];

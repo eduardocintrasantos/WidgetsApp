@@ -52,5 +52,19 @@ final appRouter = GoRouter(
         return const UiControlsScreen();
       },
     ),
+
+    GoRoute(
+      path: '/tutorial',
+      builder: (BuildContext context, GoRouterState state) {
+        return const AppTutorialScreen();
+      },
+    ),
+
+    GoRoute(
+      path: '/infinitscroll',
+      builder: (BuildContext context, GoRouterState state) {
+        return const InfiniteScrollScreen();
+      },
+    ),
   ],
 );
