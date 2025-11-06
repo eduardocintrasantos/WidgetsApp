@@ -8,3 +8,4 @@ export 'progress/progress_screen.dart';
 export 'snackbar/snackbar_screen.dart';
 export 'ui_controls/ui_controls_screen.dart';
 export 'counter/counter_screen.dart';
+export 'theme_changer/theme_changer.dart';
